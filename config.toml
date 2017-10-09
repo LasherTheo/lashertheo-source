@@ -1,0 +1,42 @@
+baseurl = "/"
+languageCode = "en-us"
+publishDir = "docs"
+title = "Lasher Theo"
+theme = "hugo-xmag"
+googleAnalytics = "UA-107759138-1"
+disqusShortname = "lashertheo"
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+hasCJKLanguage = true
+enableEmoji = true
+paginate = 9
+
+[permalinks]
+    post = "/post/:slug/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+[params]
+    description = "Programmer; Blockchain enthusiast."
+    summary_length = 300
+
+[params.text]
+    back = "&larr; Back to Home"
+    edit = "Edit this page &rarr;"
+    truncated = "&hellip;"
+    
+[params.banner]
+    src = "/images/blockchain-graphic-100.png"
+    alt = "Blockchain"
